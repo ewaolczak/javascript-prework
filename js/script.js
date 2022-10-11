@@ -20,6 +20,7 @@ console.log('Gracz wpisał: ' + playerInput);
 let argPlayerMove = getMoveName(playerInput);
 
 function displayResults(argComputerMove, argPlayerMove) {
+    console.log('moves:', argComputerMove, argPlayerMove);
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 
     if(argComputerMove === 'kamień' && argPlayerMove === 'papier'){
