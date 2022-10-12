@@ -31,29 +31,34 @@
             Każdy gracz może wybrać jeden z ruchów: papier, kamień, lub nożyce.
             <br>
             W naszym wypadku będzie jeden gracz, a rolę drugiego gracza będzie pełnił
-            komputer.
-            <br>
-            Wynik rundy może być następujący:
-            <br>
-            remis – jeśli obaj gracze wybrali ten sam ruch,<br>
-            wygrana gracza, który zagrał papier, jeśli drugi gracz zagrał kamień,<br>
+            komputer.</p>
+            <p class="scores">Wynik rundy może być następujący:</p>
+        <ul class="results">
+            <li class="option">remis – jeśli obaj gracze wybrali ten sam ruch,</li>
+            <li class="option">wygrana gracza, który zagrał papier, jeśli drugi gracz
+                zagrał kamień,</li>
             <span class="info">(Papier jest silniejszy od kamienia, ponieważ go
-                owija.)</span><br>
-            wygrana gracza, który zagrał kamień, jeśli drugi gracz zagrał nożyce,<br>
+                owija.)</span>
+            <li class="option">wygrana gracza, który zagrał kamień, jeśli drugi gracz
+                zagrał nożyce,</li>
             <span class="info">(Kamień jest silniejszy od nożyc, ponieważ je
-                tępi.)</span><br>
-            wygrana gracza, który zagrał nożyce, jeśli drugi gracz zagrał papier.<br>
-            <span class="info">Nożyce są silniejsze od papieru, ponieważ go tną.</span>
-            Gra toczy się do osiągnięcia przez jednego z graczy wcześniej ustalonej liczby
-            wygranych rund.
-        </p>
+                tępi.)</span>
+            <li class="option">wygrana gracza, który zagrał nożyce, jeśli drugi gracz
+                zagrał papier.</li>
+            <span class="info">(Nożyce są silniejsze od papieru, ponieważ go tną.)</span>
+        </ul>
+        <p class="instructions">Gra toczy się do osiągnięcia przez jednego z graczy wcześniej ustalonej liczby
+        wygranych rund.</p>
     </div>
     <div class="container">
+        <p class="play">Gramy?</p>
         <p class="move">Wybierz swój ruch</p>
         <div id="buttons">
             <button type="button" id="play-rock" class="btn btn-dark flex">Kamień</button>
-            <button type="button" id="play-paper" class="btn btn-dark flex">Papier</button>
-            <button type="button" id="play-scissors" class="btn btn-dark flex">Nożyce</button>
+            <button type="button" id="play-paper"
+                class="btn btn-dark flex">Papier</button>
+            <button type="button" id="play-scissors"
+                class="btn btn-dark flex">Nożyce</button>
         </div>
         <div id="messages"></div>
     </div>
